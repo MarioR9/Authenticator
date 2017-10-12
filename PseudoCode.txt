@@ -1,0 +1,10 @@
+start program
+input username
+input password
+Authenticate
+if correct
+	welcome Message
+	end program
+if Incorrect
+	error Message
+	Restart program
