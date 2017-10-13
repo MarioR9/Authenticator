@@ -47,6 +47,7 @@ public class Aute extends Application{
 		loginButton.setDisable(true);
 
 		username.textProperty().addListener((observable, oldValue, newValue)->{
+		loginButton.setDisable(newValue.trim().isEmpty());
 		});
 
 		dialog.getDialogPane().setContent(grid);
