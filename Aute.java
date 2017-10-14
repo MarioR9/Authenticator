@@ -12,6 +12,7 @@ import javafx.scene.Node;
  * */
 
 public class Aute extends Application{
+	@Override
 	public void start (Stage primaryStage){
 	
 		//Loop( proram will continue until user name and password are entered correctly.)
